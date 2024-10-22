@@ -1,8 +1,6 @@
 .container-fluid {
   background-color: #f8f9fa;
 }
-
-
 .row {
   border: 1px solid #e3e3e3;
   overflow: hidden;
@@ -23,9 +21,7 @@ font-family: Arial !important;
 
 input[type="text"],
 select {
-  border: 2px solid #c3c3c3;
   border-radius: 8px;
-  padding: 8px;
 }
 
 input[type="checkbox"] {
@@ -33,7 +29,14 @@ input[type="checkbox"] {
   height: 20px;
   accent-color: #141263;
 }
-
+.form-label{
+ margin-bottom: 0px;
+  font-size: 16px;
+}
+.Source_check_box{
+  gap: 16px;
+  display: grid;
+}
 .form-labels{
   font-weight: 600;
   font-size: 16px;
@@ -48,25 +51,52 @@ input[type="checkbox"] {
   font-weight: 400;
   color: #767676;
 }
+aside{
+  display: grid;
+  gap: 20px;
+}
+.Source{
+    display: grid;
+    gap: 12px;
+
+}
+
 aside h5{
   font-size: 20px;
   font-weight: 700;
   color: #0D0D0D;
+  margin-bottom: 0px;
+}
+main{
+  display: grid;
+  gap: 20px;
 }
 main h5{
   font-size: 20px;
   font-weight: 700;
   color: #121212;
 }
+.table_row{
+  height: 53px;
 
+}
 .form-check-input {
   margin-right: 5px;
 }
-
+.form-check{
+  display: flex;
+    gap: 12px;
+}
+.form-check-label{
+  margin-top: 3px;
+}
+.form_check_data{
+  display: grid;
+  gap: 14px;
+}
 .table {
   background-color: white;
   border-collapse: collapse;
-  margin-top: 20px;
 }
 
 .table-bordered {
@@ -76,6 +106,15 @@ main h5{
 .table-hover tbody tr:hover {
   background-color: #f2f2f2;
 }
+tr{
+  height: 60px;
+}
+tr td{
+  align-content: space-evenly;
+}
+.head_check_box{
+  align-content:end;
+}
 .thead_first{
   padding: 8px !important;}
 
@@ -83,7 +122,7 @@ thead th {
   text-align: left;
   color: white;
   font-weight: bold;
-  padding: 8px 8px 14px 8px !important;
+  align-content: center;
 }
 .navbar-nav  {
 display: flex;
@@ -144,8 +183,25 @@ input[type="checkbox"] {
   width: 24px;
   height: 24px;
   accent-color: #141263;
+  border: 1px solid #9E9E9E;
+}
+.form-check-box{
+  display: grid;
+  gap: 14px;
 }
 .form-check-input{
   margin-right: 0px !important;
   
+}
+.form-control{
+  font-size: 14px;
+  height: 44px;
+  font-weight: 400;
+
+}
+.form-select{
+  font-size: 14px;
+  height: 44px;
+  font-weight: 400;
+
 }
